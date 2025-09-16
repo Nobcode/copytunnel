@@ -1,7 +1,7 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = '75ab0b51-1c34-4f8d-85bb-16b0abfdbf88';
 let proxyIP = '';
 let DNS64Server = '';
 //let sub = '';
@@ -7175,4 +7175,5 @@ function config_Html(token = "test", proxyhost = "") {
 </html>`;
 
     return html;
+
 }
